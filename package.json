@@ -1,7 +1,7 @@
 {
-  "name": "police-watch",
+  "name": "family-watch",
   "version": "1.0.0",
-  "description": "Police location tracker",
+  "description": "Family Watch",
   "main": "server.js",
   "scripts": {
     "start": "concurrently \"npm run server\" \"npm run client\"",
@@ -14,11 +14,11 @@
     "url": "git+https://github.com/ivanmanan/JumbleXplore.git"
   },
   "keywords": [
-    "travel",
-    "explore"
+    "Family",
+    "Neighborhood"
   ],
   "author": "Ivan Manan, Yongbum, Lewis, and Brian",
-  "license": "CS M117",
+  "license": "UNLICENSED",
   "bugs": {
     "url": "https://github.com/ivanmanan/"
   },
@@ -27,9 +27,22 @@
     "body-parser": "^1.18.2",
     "cookie-parser": "^1.4.3",
     "ejs": "^2.5.7",
-    "express": "^4.15.4",
+    "express": "^4.16.2",
+    "express-session": "^1.15.6",
+    "forever": "^0.15.3",
+    "fs": "0.0.1-security",
+    "google-maps-react": "^1.1.2",
+    "gps": "^0.4.1",
+    "https": "^1.0.0",
     "morgan": "^1.8.2",
-    "serve-favicon": "^2.4.4"
+    "mysql": "^2.15.0",
+    "mysql-server": "^1.0.5",
+    "path": "^0.12.7",
+    "react": "^16.0.0",
+    "react-bootstrap": "^0.31.5",
+    "react-dom": "^16.0.0",
+    "serve-favicon": "^2.4.4",
+    "socket.io": "^2.0.4"
   },
   "devDependencies": {
     "concurrently": "^3.5.0"

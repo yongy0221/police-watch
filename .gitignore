@@ -1,2 +1,7 @@
 .tern-port
 config.js
+/api/api.js
+node_modules/
+npm-debug.log
+ssl/
+/backup/
